@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Twinkle",
+    "phone_number": "Frontline house",
+    "address": "No.101, Wall Street, Mexico",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Marathi"
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Sep 2020 15:04:12 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "5d12744c113463346a7e1b40a6da5029",
+    "scope": "APP",
+    "reference": "7b0aca97835c73b2527705225021dddf7b0aca97835c73b2527705225021dddf",
+    "id": "7b0aca97835c73b2527705225021dddf"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=5d12744c113463346a7e1b40a6da5029
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=5d12744c113463346a7e1b40a6da5029
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Sep 2020 15:04:13 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Twinkle",
+    "phone_number": "Frontline house",
+    "address": "No.101, Wall Street, Mexico",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "Marathi"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "hari1",
+    "phone_number": "Frontline house",
+    "address": "No.55, Goodword shipping appartment,Singapore",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Gujarathi"
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Sep 2020 15:04:13 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c3b9eba207a72e8308d3da4f6326674d",
+    "scope": "APP",
+    "reference": "e28c5c8ea0bd3ca54ee7a9f7db0d5aece28c5c8ea0bd3ca54ee7a9f7db0d5aec",
+    "id": "e28c5c8ea0bd3ca54ee7a9f7db0d5aec"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=c3b9eba207a72e8308d3da4f6326674d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c3b9eba207a72e8308d3da4f6326674d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 30 Sep 2020 15:04:13 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "hari1",
+    "phone_number": "Frontline house",
+    "address": "No.55, Goodword shipping appartment,Singapore",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "Gujarathi"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "c3b9eba207a72e8308d3da4f6326674d"
+}
+HTTP/1.1 200 OK
+Date: Wed, 30 Sep 2020 15:04:14 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

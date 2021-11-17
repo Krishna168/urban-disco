@@ -1,0 +1,418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-30T15:04:08.016Z",
+        "line": 13,
+        "name": "Verify if the place has been added successfuly using the AddPlace API",
+        "description": "",
+        "id": "validating-addplace-api;verify-if-the-place-has-been-added-successfuly-using-the-addplace-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2319671600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The AddPlace Payload with \"Twinkle\" \"Marathi\" \"No.101, Wall Street, Mexico\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Twinkle\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Marathi\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"No.101, Wall Street, Mexico\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_AddPlace_Payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1191318100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User calls the \"AddPlaceAPI\" with the \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_the_with_the_http_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2998500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Response should be Success with Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_Response_should_be_Success_with_Status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 807537600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Confirm the \"status\" field in response should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.confirm_the_field_in_response_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18988300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Confirm the \"scope\" field in response should be \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.confirm_the_field_in_response_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285836900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify place_Id created maps to \"Twinkle\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Twinkle\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"getPlaceAPI\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.verify_place_Id_created_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlaceAPI"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T15:04:12.721Z",
+        "line": 14,
+        "name": "Verify if the place has been added successfuly using the AddPlace API",
+        "description": "",
+        "id": "validating-addplace-api;verify-if-the-place-has-been-added-successfuly-using-the-addplace-api;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6995700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The AddPlace Payload with \"hari1\" \"Gujarathi\" \"No.55, Goodword shipping appartment,Singapore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hari1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Gujarathi\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"No.55, Goodword shipping appartment,Singapore\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_AddPlace_Payload_with(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177892300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User calls the \"AddPlaceAPI\" with the \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_the_with_the_http_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Response should be Success with Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_Response_should_be_Success_with_Status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34983400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Confirm the \"status\" field in response should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.confirm_the_field_in_response_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30977000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Confirm the \"scope\" field in response should be \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.confirm_the_field_in_response_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246645200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify place_Id created maps to \"hari1\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hari1\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"getPlaceAPI\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.verify_place_Id_created_maps_to_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlaceAPI"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T15:04:13.233Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify if Delete functionality is working fine",
+        "description": "",
+        "id": "validating-addplace-api;verify-if-delete-functionality-is-working-fine",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The Delete Place payload",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.the_Delete_Place_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203970200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User calls the \"deletePlaceAPI\" with the \"POST\" http method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deletePlaceAPI\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_calls_the_with_the_http_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Response should be Success with Status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_Response_should_be_Success_with_Status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28974600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Confirm the \"status\" field in response should be \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.confirm_the_field_in_response_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlaceAPI"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating AddPlace API",
+    "description": "",
+    "id": "validating-addplace-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]

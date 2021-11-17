@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-23T22:10:20 IST" name="Test Suite" finished-at="2021-10-23T22:10:20 IST" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2021-10-23T22:10:20 IST" name="Test Maven" finished-at="2021-10-23T22:10:20 IST" duration-ms="37">
+      <class name="com.qa.tests.DemoTest3">
+        <test-method signature="division()[pri:0, instance:com.qa.tests.DemoTest3@731f8236]" started-at="2021-10-23T22:10:20 IST" name="division" finished-at="2021-10-23T22:10:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="multiply()[pri:0, instance:com.qa.tests.DemoTest3@731f8236]" started-at="2021-10-23T22:10:20 IST" name="multiply" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method signature="subtract()[pri:0, instance:com.qa.tests.DemoTest3@731f8236]" started-at="2021-10-23T22:10:20 IST" name="subtract" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract -->
+        <test-method signature="sum()[pri:0, instance:com.qa.tests.DemoTest3@731f8236]" started-at="2021-10-23T22:10:20 IST" name="sum" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.DemoTest3 -->
+      <class name="com.qa.tests.DemoTest">
+        <test-method signature="division()[pri:0, instance:com.qa.tests.DemoTest@7fe8ea47]" started-at="2021-10-23T22:10:20 IST" name="division" finished-at="2021-10-23T22:10:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="multiply()[pri:0, instance:com.qa.tests.DemoTest@7fe8ea47]" started-at="2021-10-23T22:10:20 IST" name="multiply" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method signature="subtract()[pri:0, instance:com.qa.tests.DemoTest@7fe8ea47]" started-at="2021-10-23T22:10:20 IST" name="subtract" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract -->
+        <test-method signature="sum()[pri:0, instance:com.qa.tests.DemoTest@7fe8ea47]" started-at="2021-10-23T22:10:20 IST" name="sum" finished-at="2021-10-23T22:10:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.DemoTest -->
+      <class name="com.qa.tests.DemoTest1">
+        <test-method signature="division()[pri:0, instance:com.qa.tests.DemoTest1@226a82c4]" started-at="2021-10-23T22:10:20 IST" name="division" finished-at="2021-10-23T22:10:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method signature="multiply()[pri:0, instance:com.qa.tests.DemoTest1@226a82c4]" started-at="2021-10-23T22:10:20 IST" name="multiply" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method signature="subtract()[pri:0, instance:com.qa.tests.DemoTest1@226a82c4]" started-at="2021-10-23T22:10:20 IST" name="subtract" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract -->
+        <test-method signature="sum()[pri:0, instance:com.qa.tests.DemoTest1@226a82c4]" started-at="2021-10-23T22:10:20 IST" name="sum" finished-at="2021-10-23T22:10:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.DemoTest1 -->
+    </test> <!-- Test Maven -->
+  </suite> <!-- Test Suite -->
+</testng-results>

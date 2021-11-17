@@ -1,0 +1,91 @@
+package test;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class day3 {
+	@Parameters({"URL","username"})
+	@Test
+	public void WebLoginCarLoan(String urlname, String uname)
+	{
+		System.out.println("webloginCar");
+		System.out.println(urlname);
+		System.out.println(uname);
+	}
+	@Test(groups= {"Smoke"})
+	public void MobileLoginCarLoan()
+	{
+		System.out.println("MobileloginCar");
+	}
+	@BeforeClass
+	public void beforeclass()
+	{
+		System.out.println("i will execute before any method in this class");
+	}
+	
+	@AfterClass
+	public void afterclass()
+	{
+		System.out.println("i will execute after all the methods in this class");
+	}
+	
+	
+	@BeforeMethod
+	public void beforeevery()
+	{
+		System.out.println("i will execute before every method in day3 class");
+	}
+	@AfterMethod
+	public void afterevery()
+	{
+		System.out.println("i will execute after every method in day3 class");
+	}
+	@BeforeSuite
+	public void bfsuite()
+	{
+		System.out.println("i am no.1 execution");
+	}
+	
+	@Test(enabled=false)
+	public void MobileSignINCarLoan()
+	{
+		System.out.println("MobileSignin");
+	}
+	@Test(dataProvider="getData")              //(timeOut = 4000) 
+	public void MobileSignOutCarLoan(String username,String password)
+	{
+		System.out.println("MobileSignOutCar");
+		System.out.println(username);
+		System.out.println(password);
+	}
+	@Test(dependsOnMethods= {"WebLoginCarLoan","MobileLoginCarLoan"})
+	public void APICarLoan()
+	{
+		System.out.println("APIloginCar");
+	}
+	
+	@DataProvider
+	public Object[][] getData()
+	{
+		Object[][] data = new Object[3][2];
+		data[0][0]="firstusername";
+		data[0][1]="firstpassword";
+		
+		data[1][0]="secondusername";
+		data[1][1]="secondpassword";
+		
+		data[2][0]="thirdusername";
+		data[2][1]="thirdpassword";
+		
+		return data;
+	}
+	
+
+
+}

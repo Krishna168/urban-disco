@@ -1,0 +1,19 @@
+import java.util.Optional;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.network.Network;
+
+public class NetworkLogActivity {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","D:\\Drivers\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		DevTools devTools = driver.getDevTools();
+		devTools.createSession();
+		devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 0.663 s <<< FAILURE! - in TestSuite
+Academy1.TitleValidation.initialize  Time elapsed: 0.249 s  <<< FAILURE!
+java.io.FileNotFoundException: G:\KrishnaEclipseWorkspace\E2EProject\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at Academy1.TitleValidation.initialize(TitleValidation.java:21)
+
+Academy1.homePage.initialize  Time elapsed: 0.036 s  <<< FAILURE!
+java.io.FileNotFoundException: G:\KrishnaEclipseWorkspace\E2EProject\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at Academy1.homePage.initialize(homePage.java:20)
+
+Academy1.ValidateNavigationBar.initialize  Time elapsed: 0.01 s  <<< FAILURE!
+java.io.FileNotFoundException: G:\KrishnaEclipseWorkspace\E2EProject\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at Academy1.ValidateNavigationBar.initialize(ValidateNavigationBar.java:20)
+

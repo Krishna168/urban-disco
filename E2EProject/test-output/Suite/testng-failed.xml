@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy1.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating the navigation bar of the website(failed)">
+    <classes>
+      <class name="Academy1.ValidateNavigationBar">
+        <methods>
+          <include name="ValidateAppNavBar"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy1.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating the navigation bar of the website(failed) -->
+  <test thread-count="5" parallel="tests" name="Validating the logins for the users(failed)">
+    <classes>
+      <class name="Academy1.homePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy1.homePage -->
+    </classes>
+  </test> <!-- Validating the logins for the users(failed) -->
+  <test thread-count="5" parallel="tests" name="Validating title of the page(failed)">
+    <classes>
+      <class name="Academy1.TitleValidation">
+        <methods>
+          <include name="ValidateAppTitle"/>
+          <include name="teardown"/>
+          <include name="ValidateHeader"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy1.TitleValidation -->
+    </classes>
+  </test> <!-- Validating title of the page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
